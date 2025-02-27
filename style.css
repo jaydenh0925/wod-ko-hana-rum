@@ -1,0 +1,76 @@
+body {
+  background-image: url('./Image/wod-ko-hana-background.png');
+  background-size: cover;
+  background-position: center;
+  
+}
+#topMenu {
+  background-color: #000000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#topMenu .nav-item {
+  padding-top: 20px;
+}
+#topMenu .nav-link {
+  color: white;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+#topMenu img{
+  width: 200px;
+}
+
+.centerText {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.footer {
+  color: white;
+  padding: 1rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-text {
+  font-size: 20px;
+}
+
+.footer-text a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-text a:hover {
+  color: #f1c40f;
+}
+
+.footer .nav-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer .nav-link:hover {
+  color: #f1c40f;
+}
+
+.footer img {
+  max-width: 100px;
+  height: auto;
+}
